@@ -1,0 +1,9 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    background: linear-gradient(90deg, rgb(0 8 37) 0%, rgb(29 28 111) 100%);
+}
+
+@font-face {
+    font-family: agbalumo;
+    src: url(./assets/fonts/Agbalumo-Regular.ttf) format("opentype");
+}

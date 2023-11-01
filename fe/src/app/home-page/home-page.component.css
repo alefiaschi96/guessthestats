@@ -1,0 +1,23 @@
+.home-page{
+    .title{
+        text-align: center;
+        font-size: 10vh;
+        font-family: 'agbalumo';
+        color: #cfb467;
+    }
+
+    .start-button{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+        font-size: 10vh;
+        font-family: 'agbalumo';
+        color: #cfb467;
+        border-radius: 45px;
+        border: 2px solid #cfb467;
+        padding: 0px 20px;
+    }
+}
