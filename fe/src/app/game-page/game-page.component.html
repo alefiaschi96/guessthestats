@@ -1,0 +1,9 @@
+<div class="game-page">
+    <div *ngIf="!!isReady" class="previous-player">
+        <i class="fa-solid fa-arrow-left" (click)="previousPlayer()"></i>
+    </div>
+    <app-card></app-card>
+    <div *ngIf="!!isReady" class="next-player">
+        <i class=" fa-solid fa-arrow-right" (click)="nextPlayer()"></i>
+    </div>
+</div>

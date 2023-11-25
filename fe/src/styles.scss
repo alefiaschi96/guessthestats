@@ -1,4 +1,7 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
     background: linear-gradient(90deg, rgb(0 8 37) 0%, rgb(29 28 111) 100%);
 }
@@ -6,4 +9,9 @@ body {
 @font-face {
     font-family: agbalumo;
     src: url(./assets/fonts/Agbalumo-Regular.ttf) format("opentype");
+}
+
+@font-face {
+    font-family: ea-font;
+    src: url(./assets/fonts/EASPORTS15.ttf) format("opentype");
 }

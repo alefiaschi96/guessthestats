@@ -1,0 +1,16 @@
+.home-page {
+    @apply flex items-center text-center flex-col justify-evenly h-screen;
+
+    .text {
+        @apply text-[#cfb467] select-none text-[12vh];
+        font-family: "ea-font";
+    }
+    
+    .start-button {
+        @apply rounded-[3rem] border-[3px] border-solid border-[#cfb467];
+    }
+    
+    .start-span {
+        @apply inline-block cursor-pointer px-12 py-0;
+    }
+}

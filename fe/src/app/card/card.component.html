@@ -1,0 +1,37 @@
+<div *ngIf="!!isReady">
+    <div class="card-wrapper">
+        <img class="player-card card-image" [src]="cardPath">
+
+        <img class="player-image" [src]="playerImage$ | async" alt="Blob Image">
+
+        <img class="nation-image" [src]="nationImage$ | async" alt="Blob Image">
+
+        <img class="club-image" [src]="clubImage$ | async" alt="Blob Image">
+
+        <div class="player-name">
+            <span>{{playerName}}</span>
+        </div>
+
+        <div class="stat-left first-stat">
+            <span>VEL</span>
+        </div>
+        <div class="stat-left second-stat">
+            <span>TIR</span>
+        </div>
+
+        <div class="stat-left third-stat">
+            <span>PAS</span>
+        </div>
+
+        <div class="stat-right first-stat">
+            <span>DRI</span>
+        </div>
+        <div class="stat-right second-stat">
+            <span>DIF</span>
+        </div>
+
+        <div class="stat-right third-stat">
+            <span>FIS</span>
+        </div>
+    </div>
+</div>

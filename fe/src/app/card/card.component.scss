@@ -1,0 +1,91 @@
+.card-image {
+    @apply max-w-full h-[80vh];
+}
+
+.card-wrapper {
+    position: relative;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.player-card {
+    position: relative;
+    width: auto;
+    display: block;
+}
+
+.player-image {
+    position: absolute;
+    top: 28%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    max-height: 40vh;
+    max-width: 70%;
+}
+
+.player-name {
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    font-family: "ea-font";
+    transform: translate(-50%, 0%);
+    font-size: 4vh;
+}
+
+.nation-image {
+    position: absolute;
+    top: 31.8%;
+    left: 20%;
+    max-width: 13%;
+}
+
+.club-image {
+    position: absolute;
+    top: 40%;
+    left: 19%;
+    height: 10%;
+}
+
+.stat-left {
+    width: 10%;
+    position: absolute;
+    left: 35%;
+    font-family: "ea-font";
+    font-size: 3vh;
+}
+
+.stat-right {
+    width: 10%;
+    position: absolute;
+    left: 65%;
+    font-family: "ea-font";
+    font-size: 3vh;
+}
+
+.first-stat {
+    top: 65%;
+}
+
+.second-stat {
+    top: 70%;
+}
+
+.third-stat {
+    top: 75%;
+}
+
+@media (max-width: 600px) {
+    .card-image {
+        @apply max-w-full;
+        height: auto;
+        max-height: 100vh;
+    }
+
+    .player-name {
+        font-size: 7vw;
+    }
+
+    .stat-left, .stat-right{
+        font-size: 5vw;
+    }
+}

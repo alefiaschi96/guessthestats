@@ -1,0 +1,19 @@
+.game-page {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.previous-player {
+    width: 20%;
+    color: #cfb467;
+    font-size: 10vh;
+}
+
+.next-player {
+    width: 20%;
+    color: #cfb467;
+    font-size: 10vh;
+}
